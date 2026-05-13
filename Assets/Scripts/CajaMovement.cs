@@ -12,4 +12,8 @@ public class CajaMovement : MonoBehaviour
     {
         transform.Translate(0, -speed, 0);
     }
+    public void sumaSpeed()
+    {
+        speed += 0.02f;
+    }
 }
